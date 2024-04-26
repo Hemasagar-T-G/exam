@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git and GitHub Introduction</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #212529;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      color: #007bff;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .command {
+      background-color: #343a40;
+      border: 1px solid #495057;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    .command p {
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+    .command code {
+      background-color: #495057;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Git and GitHub Introduction</h1>
+  </div>
+</header>
+
+<div class="container">
+  <h2>What is Git?</h2>
+  <p>Git is a distributed version control system that allows multiple developers to collaborate on projects and track changes to source code.</p>
+  
+  <h2>What is GitHub?</h2>
+  <p>GitHub is a web-based platform built on top of Git that provides hosting for software development projects, collaboration features, and more.</p>
+  
+  <h2>Basic Git Commands</h2>
+  
+  <div class="command">
+    <p><strong>git init</strong> - Initialize a new Git repository in the current directory.</p>
+    <p>Example: <code>git init</code></p>
+  </div>
+  
+  <div class="command">
+    <p><strong>git clone [repository_url]</strong> - Clone a repository into a new directory.</p>
+    <p>Example: <code>git clone https://github.com/user/repo.git</code></p>
+  </div>
+  
+  <div class="command">
+    <p><strong>git add [file]</strong> - Add a file to the staging area.</p>
+    <p>Example: <code>git add index.html</code></p>
+  </div>
+  
+  <div class="command">
+    <p><strong>git commit -m "[message]"</strong> - Commit changes to the repository with a descriptive message.</p>
+    <p>Example: <code>git commit -m "Add initial HTML structure"</code></p>
+  </div>
+  
+  <div class="command">
+    <p><strong>git push</strong> - Push local changes to a remote repository.</p>
+    <p>Example: <code>git push origin main</code></p>
+  </div>
+  
+  <div class="command">
+    <p><strong>git pull</strong> - Fetch and merge changes from a remote repository.</p>
+    <p>Example: <code>git pull origin main</code></p>
+  </div>
+
+  <div class="command">
+    <p><strong>git status</strong> - Show the status of working directory and staging area.</p>
+    <p>Example: <code>git status</code></p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
